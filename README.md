@@ -1,2 +1,2 @@
 # victory-template
-Base for victory rust projects.
+Car-go (Rust) workspace / experiments / mini-projects.
