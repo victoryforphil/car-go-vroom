@@ -1,0 +1,12 @@
+[package]
+name = "tetris"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.94"
+clearscreen = "3.0.0"
+log = "0.4.22"
+ndarray = "0.16.1"
+rand = "0.8.5"
+crossterm = "0.20"
