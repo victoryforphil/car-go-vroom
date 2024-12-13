@@ -233,7 +233,7 @@ fn random_peice() -> Box<dyn Drawable>{
 }
 fn main() {
     println!("Hello, world!");
-  
+
     let board = Arc::new(Mutex::new( Board::new(10, 20)));
 
     thread::scope(|s| {
