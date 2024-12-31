@@ -1,0 +1,13 @@
+[package]
+name = "lua-fun"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0.217", features = ["derive"] }
+mlua = { version = "0.10.2", features = ["lua54", "vendored", "serialize"] }
+anyhow = "1.0.94"
+clap = { version = "4.5.23", features = ["derive"] }
+
+log = "0.4.22"
+pretty_env_logger = "0.5.0"
